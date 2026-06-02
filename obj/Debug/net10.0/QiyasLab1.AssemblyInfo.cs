@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QiyasLab1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2df92a4295a667247ac843fb3ad1550d260b6888")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c2431af2b93704377a34a7a854b51ec53f12e12")]
 [assembly: System.Reflection.AssemblyProductAttribute("QiyasLab1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QiyasLab1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

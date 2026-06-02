@@ -20,3 +20,21 @@ Console.WriteLine($"Region (coalesced): {displayRegion}");
 // Useful for lazy initialization.
 region ??= "Addis Ababa";
 Console.WriteLine($"Region (assigned): {region}");
+
+
+//  Declare Your First TMS Variables
+string studentName = "Abeba";
+string studentId = "STU-001";
+int enrollmentCount = 3;
+decimal grantAmount = 1999.99m; // 'm' suffix marks a decimal literal
+DateTime enrolledAt = DateTime.UtcNow;
+string? advisorName = null; // Optional field, can be null
+
+Console.WriteLine();
+Console.WriteLine("TMS Variables:");
+Console.WriteLine($"Student Name: {studentName}");
+Console.WriteLine($"Student ID: {studentId}");
+Console.WriteLine($"Enrollment Count: {enrollmentCount}");
+Console.WriteLine($"Grant Amount: {grantAmount:C}");
+Console.WriteLine($"Enrolled At: {enrolledAt}");
+Console.WriteLine($"Advisor Name: {advisorName ?? "Not assigned"}");
